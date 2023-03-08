@@ -1,1 +1,1 @@
-# slimming-center
+# Slimming Center
