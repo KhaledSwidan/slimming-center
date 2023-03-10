@@ -1,19 +1,35 @@
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services {
+  background-image: url(../img/services.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.services .section-title {
+  background-color: rgb(191 241 144 / 75%);
+  padding: 15px 20px;
+  border-radius: 0.3rem;
+  margin-bottom: 50px;
+}
 .services .icon-box {
-  text-align: center;
   border: 1px solid #1a8c1a;
   padding: 25px 10px;
   transition: all 0.3s ease-in-out;
   border-radius: 0.375rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .services .icon-box .icon {
   margin: 0 auto;
-  width: 64px;
-  height: 64px;
-  background: #1977cc;
-  border-radius: 5px;
+  padding: 5px 10px;
+  background: #516e36;
+  border-radius: 0.2rem;
   transition: all 0.3s ease-out 0s;
   display: flex;
   align-items: center;
@@ -22,7 +38,7 @@
   transform-style: preserve-3d;
 }
 .services .icon-box .icon i {
-  color: #fff;
+  color: #baf7cb;
   font-size: 28px;
 }
 .services .icon-box .icon::before {
@@ -32,42 +48,36 @@
   top: -8px;
   height: 100%;
   width: 100%;
-  background: #badaf7;
-  border-radius: 5px;
+  background: #baf7cb;
+  border-radius: 0.2rem;
   transition: all 0.3s ease-out 0s;
   transform: translateZ(-1px);
 }
-
 .services .icon-box h4 {
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 15px;
-  font-size: 24px;
+  color: #ffffff;
 }
-
-.services .icon-box h4 a {
-  color: #3c4c2e;
-}
-
 .services .icon-box p {
-  line-height: 24px;
-  font-size: 14px;
   margin-bottom: 0;
-  color: #2a2a2a;
+  color: #c2c2c2;
 }
 .services .icon-box:hover {
-  background: #1a8c1a;
+  background: rgba(26, 140, 26, 0.7);
   border-color: #1a8c1a;
 }
 .services .icon-box:hover .icon {
-  background: #fff;
+  background: #baf7cb;
 }
 .services .icon-box:hover .icon i {
-  color: #1977cc;
+  color: #516e36;
 }
 .services .icon-box:hover .icon::before {
-  background: #3291e6;
+  background: #516e36;
 }
-.services .icon-box:hover h4 a,
+.services .icon-box:hover h4 {
+  color: #032e03;
+}
 .services .icon-box:hover p {
   color: #bff190;
 }

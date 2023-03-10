@@ -16,9 +16,13 @@ section {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
+  width: fit-content;
   position: relative;
   color: #105410;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 .section-title h2::before {
   content: "";
