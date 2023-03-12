@@ -16,7 +16,6 @@
   margin-bottom: 50px;
 }
 .services .icon-box {
-  border: 1px solid #1a8c1a;
   padding: 25px 10px;
   transition: all 0.3s ease-in-out;
   border-radius: 0.375rem;
@@ -24,6 +23,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgba(26, 140, 26, 40%);
 }
 .services .icon-box .icon {
   margin: 0 auto;
