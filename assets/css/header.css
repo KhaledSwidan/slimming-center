@@ -147,7 +147,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #cd946a;
+  color: #fff;
   white-space: nowrap;
   transition: all 0.3s ease-in-out;
   border-bottom: 2px solid transparent;
@@ -157,7 +157,7 @@
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #ff6063;
-  border-color: #9a2b2e;
+  color: #00d900;
+  border-color: #3e6b48;
   transition: all 0.3s ease-in-out;
 }

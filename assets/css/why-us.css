@@ -4,6 +4,18 @@
 section#why-us {
   z-index: 3;
   position: relative;
+  padding-bottom: 0;
+  padding-top: 0;
+  top: -50px;
+}
+@media (max-width: 992px) {
+  section#why-us {
+    top: 0px;
+  }
+  .why-us .all-why-us {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 .why-us .content {
   padding: 20px 10px;
