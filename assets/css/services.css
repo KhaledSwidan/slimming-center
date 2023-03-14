@@ -8,6 +8,7 @@
   background-size: cover;
   background-attachment: fixed;
   position: relative;
+  overflow: hidden;
 }
 .services .section-title {
   background-color: rgb(191 241 144 / 75%);
@@ -21,8 +22,10 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
   border-radius: 0.4rem;
+  transform: translateX(-6%);
 }
 .serv-program-details {
   position: absolute;
@@ -31,10 +34,15 @@
   background-color: #e4ffcd;
   border-radius: 0.35rem;
   padding: 10px 20px;
-  width: 80%;
+  width: 70%;
 }
-.serv-program-details h3{
+.serv-program-details h3 {
   direction: ltr;
+  font-weight: 800;
+  color: #1a8c1a;
+}
+.serv-program-details p {
+  color: #000;
 }
 .services .icon-box {
   padding: 25px 10px;
@@ -101,4 +109,47 @@
 }
 .services .icon-box:hover p {
   color: #bff190;
+}
+/* ============================================================ */
+
+/*--------------------------------------------------------------
+# Departments
+--------------------------------------------------------------*/
+.services .nav-tabs {
+  border: 0;
+  background-color: rgb(234 234 234 / 17%);
+  padding-right: 15px;
+  padding-top: 0 !important;
+}
+.services .nav-link {
+  border: 0;
+  padding: 10px 10px 10px 0;
+  transition: 0.3s;
+  color: #000;
+  border-radius: 0;
+  border-right: 2px solid #e4ffcd;
+  font-weight: 800;
+}
+.services .nav-link:hover {
+  color: #008000;
+}
+.services .nav-link.active {
+  color: #bff190;
+  border-color: #3e6b48;
+  background: #1a8c1a;
+}
+.services .details h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0px 20px 20px 20px;
+  color: #1a8c1a;
+}
+.services .details p {
+  margin: 10px 20px 20px 20px;
+  color: #000;
+}
+@media (max-width: 992px) {
+  .services .nav-link {
+    padding: 15px;
+  }
 }
