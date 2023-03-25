@@ -2,47 +2,30 @@
 # Services
 --------------------------------------------------------------*/
 .services {
-  background-image: url(../img/services.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #f3f3f3;
   position: relative;
   overflow: hidden;
 }
-.services .section-title {
-  background-color: rgb(191 241 144 / 75%);
-  padding: 15px 20px;
-  border-radius: 0.3rem;
-  margin-bottom: 50px;
-}
 .serv-program {
-  margin-bottom: 120px;
   background-image: url(../img/why-us.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
   border-radius: 0.4rem;
-  transform: translateX(-6%);
 }
 .serv-program-details {
-  position: absolute;
-  bottom: -75px;
-  left: 0px;
-  background-color: #e4ffcd;
+  background-color: rgb(0 0 0 / 50%);
   border-radius: 0.35rem;
   padding: 10px 20px;
-  width: 70%;
 }
 .serv-program-details h3 {
   direction: ltr;
   font-weight: 800;
-  color: #1a8c1a;
+  color: #00c603;
 }
 .serv-program-details p {
-  color: #000;
+  color: #fff;
 }
 .services .icon-box {
   padding: 25px 10px;
@@ -112,12 +95,76 @@
 }
 /* ============================================================ */
 
+/* Offers */
+.services .offers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.services .offers .offer-one {
+  background-image: url(../img/bg.webp);
+  background-size: cover;
+  position: relative;
+}
+.services .offers .offer-one::before {
+  content: "Special Offer";
+  position: absolute;
+  right: 0;
+  top: 0px;
+  background-color: rgb(211 7 42);
+  color: #fff;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  padding: 4px 10px 10px 14px;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  border-top: 0;
+  border-right: 0;
+}
+.services .offers .offer-one,
+.services .offers .offer-two {
+  background-color: rgb(237 243 248);
+  border-radius: 0.35rem;
+  padding: 10px 20px;
+  text-align: center;
+}
+.services .offers .offer-one h3,
+.services .offers .offer-two h3 {
+  direction: ltr;
+  color: #1a8c1a;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: "tiempos-headline", serif;
+  line-height: 1.6;
+  margin: 0;
+  margin-top: 30px;
+}
+.services .offers .offer-two h3 {
+  margin: 0;
+}
+.services .offers .offer-one h2,
+.services .offers .offer-two h2 {
+  font-size: 4rem;
+  line-height: 3.3125rem;
+  font-family: "Coming Soon", cursive;
+  font-family: "Delicious Handrawn", cursive;
+  color: #2d3185;
+}
+.services .offers .offer-two h2 {
+  color: #f9a700;
+}
+.services .offers .offer-one p,
+.services .offers .offer-two p {
+  color: #333;
+}
+
 /*--------------------------------------------------------------
 # Departments
 --------------------------------------------------------------*/
 .services .nav-tabs {
   border: 0;
-  background-color: rgb(234 234 234 / 17%);
+  background-color: rgb(217 247 188);
   padding-right: 15px;
   padding-top: 0 !important;
 }
@@ -127,15 +174,15 @@
   transition: all 0.3s ease-in-out;
   color: #000;
   border-radius: 0;
-  border-right: 2px solid #e4ffcd;
+  border-right: 2px solid #fff;
   font-weight: 800;
 }
 .services .nav-link:hover {
-  color: #008000;
+  color: #1a8c1a;
 }
 .services .nav-link.active {
   color: #bff190;
-  border-color: #3e6b48;
+  border-color: #000;
   background: #1a8c1a;
 }
 .services .details h3 {
