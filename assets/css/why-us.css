@@ -47,25 +47,20 @@ section#why-us {
   background: #116511;
   color: #fff;
 }
-.why-us .icon-boxes .icon-box {
+.why-us .accordion-item {
   text-align: center;
   border-radius: 0.357rem;
-  background: #e4ffcd;
-  padding: 10px 20px;
+  background: #edf3f8;
+  padding: 0;
   width: 100%;
   transition: all 0.3s ease-in-out;
   border: 1px solid #dedede;
 }
-.title-icon {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: fit-content;
-  margin-bottom: 10px;
+.accordion-header {
   transition: all 0.3s ease-in-out;
   position: relative;
 }
-.title-icon::before {
+.accordion-header::before {
   content: "";
   position: absolute;
   right: 0;
@@ -75,21 +70,59 @@ section#why-us {
   background-color: #1a8c1a;
   transition: all 0.3s ease-in-out;
 }
-.why-us .icon-boxes .icon-box:hover .title-icon::before {
+.why-us .accordion-item:hover .accordion-header::before {
   width: 100%;
   transition: all 0.3s ease-in-out;
 }
-.why-us .icon-boxes .icon-box i {
-  font-size: 25px;
+.accordion-button:not(.collapsed) {
   color: #1a8c1a;
 }
-.why-us .icon-boxes .icon-box h4 {
+.why-us .accordion-item i {
+  font-size: 25px;
+  color: #1a8c1a;
+  margin-left: 10px;
+}
+.why-us .accordion-item h2 button {
   font-size: 20px;
   font-weight: 700;
   margin: 0;
-  margin-right: 10px;
 }
-.why-us .icon-boxes .icon-box p {
+.why-us .accordion-button::after {
+  display: none;
+}
+.why-us .accordion-button:focus {
+  box-shadow: none;
+}
+.why-us button.accordion-button.collapsed {
+  background-color: #d9f7bc;
+}
+.why-us .accordion-item .accordion-body {
   font-size: 15px;
   color: #848484;
+  background-color: #f8fbff;
+}
+.why-us .welcome-support {
+  background-color: #faf6f3;
+  border-radius: 0.375rem;
+  padding: 0;
+}
+.why-us .welcome-support .welcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 20px;
+}
+.why-us .welcome-support .welcontent h3 {
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: serif;
+  color: #333;
+}
+.why-us .welcome-support .welcontent h2 {
+  font-size: 7rem;
+  color: #d3072a;
+  font-family: "Coming Soon", cursive;
+  font-family: "Delicious Handrawn", cursive;
+  margin-bottom: 0;
 }
