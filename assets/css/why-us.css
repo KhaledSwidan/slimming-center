@@ -111,7 +111,7 @@ section#why-us {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 15px 20px;
+  padding: 30px 15px 5px 15px;
 }
 .why-us .welcome-support .welcontent h3 {
   font-size: 2rem;
@@ -120,7 +120,7 @@ section#why-us {
   color: #333;
 }
 .why-us .welcome-support .welcontent h2 {
-  font-size: 7rem;
+  font-size: 8rem;
   color: #d3072a;
   font-family: "Coming Soon", cursive;
   font-family: "Delicious Handrawn", cursive;
