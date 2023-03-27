@@ -158,6 +158,11 @@
 .services .offers .offer-two p {
   color: #333;
 }
+@media (max-width: 400px) {
+  .logo-btn {
+    flex-direction: column;
+  }
+}
 
 /*--------------------------------------------------------------
 # Departments
