@@ -14,15 +14,18 @@ section#why-us {
   }
 }
 .why-us .content {
-  padding: 20px 10px;
-  background: #1a8c1a;
-  border-radius: 0.357rem;
-  color: #bff190;
+  padding: 30px 30px 15px 10px;
+  background: #310757;
+  color: #fff;
 }
 .why-us .content h3 {
-  font-weight: 700;
-  font-size: 34px;
-  margin-bottom: 30px;
+  font-family: 'Coming Soon', cursive;
+  font-family: 'Delicious Handrawn', cursive;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 5rem;
 }
 .why-us .content p {
   margin-bottom: 30px;
@@ -30,7 +33,7 @@ section#why-us {
 .why-us .content .more-btn {
   padding: 12px 35px;
   margin-top: 30px;
-  background: #bff190;
+  background: #ffffff;
   color: #1a8c1a;
   border-radius: 2rem;
   white-space: nowrap;

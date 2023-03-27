@@ -166,7 +166,9 @@
   border: 0;
   background-color: rgb(217 247 188);
   padding-right: 15px;
-  padding-top: 0 !important;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .services .nav-link {
   border: 0;
@@ -178,7 +180,11 @@
   font-weight: 800;
 }
 .services .nav-link:hover {
-  color: #1a8c1a;
+  color: #fff;
+  border-right: 2px solid #000;
+  transition: all 0.3s ease-in-out;
+  padding-right: 20px;
+  background: #1a8c1a;
 }
 .services .nav-link.active {
   color: #bff190;
