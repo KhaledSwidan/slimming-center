@@ -6,6 +6,11 @@
   position: relative;
   overflow: hidden;
 }
+.services .section-title {
+  border-top: 8px solid #fff;
+  border-bottom: 8px solid #fff;
+  margin-bottom: 0;
+}
 .serv-program {
   background-image: url(../img/why-us.jpg);
   background-position: center center;
