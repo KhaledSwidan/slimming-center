@@ -176,6 +176,7 @@
   letter-spacing: 2px;
   word-spacing: 2px;
   position: relative;
+  font-family: cursive;
 }
 #footer .credits a::after {
   content: "";

@@ -125,6 +125,7 @@
   background: rgba(28, 47, 65, 0.9);
   transition: all 0.3s ease-in-out;
   z-index: 999;
+  height: 100vh;
 }
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
