@@ -32,7 +32,7 @@
     <link href="assets/css/style.css" rel="stylesheet" />
   </head>
 
-  <body>
+  <body id="main-home">
     <div id="head" class="head">
       <header id="header" class="fixed-top">
         <div class="container d-flex align-items-center">
@@ -47,32 +47,32 @@
               <li>
                 <a
                   class="nav-link scrollto active"
-                  href="#carouselExampleAutoplaying">
-                  <i class="bi bi-house ms-1"></i>
+                  href="#main-home">
+                  <i class="bi bi-house ms-1 fs-5"></i>
                   الرئيسية
                 </a>
               </li>
               <li>
-                <a class="nav-link scrollto" href="#why-us">
-                  <i class="bi bi-file-earmark-person ms-1"></i>
-                  من نحن
+                <a class="nav-link scrollto" href="what-eat.html">
+                  <i class="bi bi-card-checklist ms-1 fs-5"></i>
+                  ماذا نأكل؟
                 </a>
               </li>
               <li>
-                <a class="nav-link scrollto" href="#services">
-                  <i class="bi bi-database-exclamation ms-1"></i>
+                <a class="nav-link scrollto" href="services.html">
+                  <i class="bi bi-database-exclamation ms-1 fs-5"></i>
                   الخدمات
                 </a>
               </li>
               <li>
-                <a class="nav-link scrollto" href="#departments">
-                  <i class="bi bi-wifi ms-1"></i>
+                <a class="nav-link scrollto" href="online.html">
+                  <i class="bi bi-wifi ms-1 fs-5"></i>
                   اونلاين
                 </a>
               </li>
               <li>
                 <a class="nav-link scrollto" href="#doctors">
-                  <i class="bi bi-telephone-inbound ms-1"></i>
+                  <i class="bi bi-telephone-inbound ms-1 fs-5"></i>
                   تواصل معنا
                 </a>
               </li>
@@ -175,7 +175,7 @@
                   انه الوزن اللي خسرته ماتزيدوش تاني في المستقبل.
                 </p>
                 <div class="text-center">
-                  <a href="#" class="more-btn">
+                  <a href="services.html" class="more-btn">
                     تعرف على المزيد
                     <i class="bi bi-box-arrow-right"></i>
                   </a>
@@ -223,7 +223,7 @@
                     src="./assets/img/new-bh-logo.webp"
                     alt=""
                     class="img-fluid" />
-                  <a href="#" class="appointment-btn mt-2">
+                  <a href="online.html" class="appointment-btn mt-2">
                     <i class="bi bi-box-arrow-right"></i>
                     Find out more
                   </a>
@@ -268,10 +268,12 @@
               تحفيز الدورة الدموية في الجسم عن طريق حقن الفيتامينات والمعادن
               تحفيز الدورة الدموية في الجسم عن طريق حقن الفيتامينات والمعادن
             </p>
-            <a href="#" class="appointment-btn mt-3" dir="ltr">
-              <i class="bi bi-box-arrow-right"></i>
-              How does it work?
-            </a>
+            <div class="d-flex justify-content-center align-items-center">
+              <a href="what-eat.html" class="appointment-btn mt-3" dir="ltr">
+                <i class="bi bi-question-circle"></i>
+                What can I eat?
+              </a>
+            </div>
             <h4
               class="mt-5"
               dir="ltr"
@@ -494,7 +496,16 @@
         <div class="container stories">
           <h4>Meet our members</h4>
           <h2>Real-life weight loss success stories</h2>
-          <div class="row mb-4">
+          <div class="gallery-btn mt-0 mb-5">
+            <a
+              href="gallery.html"
+              class="appointment-btn scrollto ms-2"
+              data-aos="fade-left">
+              <i class="bi bi-box-arrow-right"></i>
+              see our Gallery...
+            </a>
+          </div>
+          <div class="row pb-5">
             <div class="col-md-4">
               <div class="serv-program position-relative my-2">
                 <div class="serv-program-details" data-aos="fade-up-right">
@@ -619,94 +630,6 @@
         </div>
       </section>
       <!-- End Counts Section -->
-
-      <section id="rules" class="rules">
-        <div class="container">
-          <div class="section-title">
-            <h2>A typical day<i class="bi bi-emoji-smile me-2"></i></h2>
-            <p>استكشف خطة الأكل التى تناسب حياتك...</p>
-          </div>
-          <div class="row" dir="ltr">
-            <div class="col-md-4 d-flex">
-              <div class="card my-2 flex-grow-1" dir="ltr">
-                <img
-                  src="assets/img/breakfast.webp"
-                  class="card-img-top"
-                  alt="Breakfast" />
-                <div
-                  class="card-body d-flex flex-column justify-content-between">
-                  <div class="content">
-                    <h5 class="card-title">
-                      <i class="bi bi-check2-square"></i>
-                      Breakfast
-                    </h5>
-                    <h6>Poached eggs and tomatoes on toast</h6>
-                    <p class="card-text">
-                      Start the day with a super-satisfying, protein-packed
-                      breakfast that’ll keep you going till lunch time
-                    </p>
-                  </div>
-                  <a href="#" class="appointment-btn mt-2">
-                    <i class="bi bi-box-arrow-right"></i>
-                    Go somewhere
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 d-flex">
-              <div class="card my-2 flex-grow-1" dir="ltr">
-                <img
-                  src="assets/img/lunch.webp"
-                  class="card-img-top"
-                  alt="Lunch" />
-                <div
-                  class="card-body d-flex flex-column justify-content-between">
-                  <div class="content">
-                    <h5 class="card-title">
-                      <i class="bi bi-check2-square"></i>
-                      Lunch
-                    </h5>
-                    <h6>Tuna and sweetcorn jacket potato</h6>
-                    <p class="card-text">
-                      Lose lbs while saving £s with this tasty, filling lunch
-                    </p>
-                  </div>
-                  <a href="#" class="appointment-btn mt-2">
-                    <i class="bi bi-box-arrow-right"></i>
-                    Go somewhere
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 d-flex">
-              <div class="card my-2 flex-grow-1" dir="ltr">
-                <img
-                  src="assets/img/dinner.webp"
-                  class="card-img-top"
-                  alt="Dinner" />
-                <div
-                  class="card-body d-flex flex-column justify-content-between">
-                  <div class="content">
-                    <h5 class="card-title">
-                      <i class="bi bi-check2-square"></i>
-                      Dinner
-                    </h5>
-                    <h6>Spaghetti and meatballs</h6>
-                    <p class="card-text">
-                      Just the ticket for midweek tea, this easy dish is
-                      slurpingly tasty! Yes you can with Slimming World
-                    </p>
-                  </div>
-                  <a href="#" class="appointment-btn mt-2">
-                    <i class="bi bi-box-arrow-right"></i>
-                    Go somewhere
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <!-- ======= Frequently Asked Questions Section ======= -->
       <section id="faq" class="faq section-bg pt-0">
@@ -869,6 +792,118 @@
       </section>
       <!-- End Frequently Asked Questions Section -->
     </main>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h3>Dr/ Tarek Reda</h3>
+              <p>
+                <span class="d-flex" dir="rtl">
+                  ص.ب. 138 <br />
+                  الشاطبي21526، الإسكندرية<br />
+                  جمهورية مصرالعربية <br /><br />
+                </span>
+                <strong>
+                  <i class="bi bi-telephone-inbound me-2"></i>
+                  Phone:
+                </strong>
+                +1 5589 55488 55
+                <br />
+                <strong>
+                  <i class="bi bi-envelope-at me-2"></i>
+                  Email:
+                </strong>
+                info@example.com
+                <br />
+              </p>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bi bi-arrow-bar-right"></i> <a href="">Home</a>
+                </li>
+                <li>
+                  <i class="bi bi-arrow-bar-right"></i> <a href="">About us</a>
+                </li>
+                <li>
+                  <i class="bi bi-arrow-bar-right"></i> <a href="">Services</a>
+                </li>
+                <li>
+                  <i class="bi bi-arrow-bar-right"></i>
+                  <a href="">Terms of service</a>
+                </li>
+                <li>
+                  <i class="bi bi-arrow-bar-right"></i>
+                  <a href="">Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li>
+                  <i class="bi bi-arrow-bar-right"></i>
+                  <a href="">Web Design</a>
+                </li>
+                <li>
+                  <i class="bi bi-arrow-bar-right"></i>
+                  <a href="">Web Development</a>
+                </li>
+                <li>
+                  <i class="bi bi-arrow-bar-right"></i>
+                  <a href="">Product Management</a>
+                </li>
+                <li>
+                  <i class="bi bi-arrow-bar-right"></i>
+                  <a href="">Marketing</a>
+                </li>
+                <li>
+                  <i class="bi bi-arrow-bar-right"></i>
+                  <a href="">Graphic Design</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+              <h4>Join Our Newsletter</h4>
+              <p>
+                Tamen quem nulla quae legam multos aute sint culpa legam noster
+                magna
+              </p>
+              <form action="" method="post">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscribe" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom container d-md-flex py-4 position-relative">
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright
+            <strong> <span>Dr/ Tarek Reda</span> </strong>. All Rights Reserved
+          </div>
+          <div class="credits">Designed by <a href="">Bohemian Coder</a></div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="" class="google-plus"><i class="bi bi-skype"></i></a>
+          <a href="" class="youtube"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
 
     <div id="preloader"></div>
     <a

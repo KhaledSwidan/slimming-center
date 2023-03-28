@@ -103,10 +103,10 @@
 /* Stories */
 .services .stories {
   background-color: #fff;
-  border-radius: 0.375rem;
   padding-top: 10px;
 }
-.services .stories h4 {
+.services .stories h4,
+.gallery h4 {
   margin-top: 50px;
   margin-bottom: 0;
   font-size: 2rem;
@@ -115,7 +115,8 @@
   color: #333;
   text-align: center;
 }
-.services .stories h2 {
+.services .stories h2,
+.gallery h2 {
   font-size: 6rem;
   font-family: "Coming Soon", cursive;
   font-family: "Delicious Handrawn", cursive;
@@ -123,6 +124,19 @@
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0;
+}
+.services .gallery-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  direction: ltr;
+  background-color: #e5e9ff;
+}
+.services .gallery-btn a {
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 3px;
 }
 /* ============================================================ */
 
