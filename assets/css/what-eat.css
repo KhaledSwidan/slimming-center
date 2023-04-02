@@ -1,4 +1,4 @@
-.head-content {
+.head-content-what-eat {
   background-image: url(../img/what-eat.jpg);
   width: 100%;
   height: 70vh;
@@ -7,7 +7,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.what-eat .what-eat-head h4 {
+.what-eat .what-eat-head h4,
+.about-food .about-food-head h4 {
   margin-top: 25px;
   margin-bottom: 0px;
   font-size: 2rem;
@@ -16,7 +17,8 @@
   color: #333;
   text-align: center;
 }
-.what-eat .what-eat-head h2 {
+.what-eat .what-eat-head h2,
+.about-food .about-food-head h2 {
   font-size: 6rem;
   font-family: "Coming Soon", cursive;
   font-family: "Delicious Handrawn", cursive;
@@ -114,4 +116,52 @@
 .what-eat .card-body p {
   margin: 1rem 0;
   color: #000;
+}
+
+/* About Food */
+.about-food {
+  direction: ltr;
+  background-color: #faf6f4;
+}
+.about-food .about-food-head h2 {
+  color: #310757;
+}
+.about-food .about-food-head .about-food-desc {
+  margin: 1rem 2rem;
+  direction: rtl;
+  text-align: right;
+  color: #310757;
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
+  font-weight: 300;
+}
+.about-food .about-food-head .about-food-desc span {
+  font-weight: 500;
+}
+.about-food .card {
+  direction: rtl;
+  height: 100%;
+  border-color: #d8d8d6;
+}
+.about-food .card h5 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: math;
+  color: #333;
+  text-align: center;
+  font-family: "Coming Soon", cursive;
+  font-family: "Delicious Handrawn", cursive;
+}
+.about-food .card .appointment-btn {
+  width: 100%;
+  text-align: center;
+  background-color: #faf6f4;
+}
+.about-food .card .appointment-btn:hover {
+  background-color: #1a8c1a !important;
+}
+.about-food .card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
