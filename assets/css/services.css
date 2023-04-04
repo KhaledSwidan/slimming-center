@@ -6,6 +6,48 @@
   position: relative;
   overflow: hidden;
 }
+/* ==================================== */
+
+/* How to Start? */
+.services .section-title {
+  border-top: 8px solid #fff;
+  border-bottom: 8px solid #fff;
+  margin-bottom: 0;
+}
+.how-to-start .section-title-content {
+  background-color: #e8e849;
+  border-right: 8px solid #fff;
+}
+.how-to-start .section-title-content h4 {
+  font-family: "Coming Soon", cursive;
+  font-family: "Delicious Handrawn", cursive;
+  text-align: center;
+  font-size: 7rem;
+  font-weight: 600;
+  color: #333;
+  direction: ltr;
+}
+@media (max-width: 925px) {
+  .how-to-start .section-title-content h4 {
+    font-size: 5rem;
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 400px) {
+  .how-to-start .section-title-content h4 {
+    font-size: 3rem;
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 767px) {
+  .how-to-start .section-title-content {
+    border-right: none;
+    padding: 1rem 2rem !important;
+  }
+}
+/* =============================================== */
+
+/* services.html */
 .head-content-services {
   background-image: url(../img/services.jpg);
   width: 100%;
@@ -83,11 +125,9 @@
   border-right: none;
   border-left: none;
 }
-.services .section-title {
-  border-top: 8px solid #fff;
-  border-bottom: 8px solid #fff;
-  margin-bottom: 0;
-}
+/* ======================================== */
+
+/* Gallery */
 .serv-program {
   background-image: url(../img/why-us.webp);
   background-position: center center;
@@ -109,71 +149,10 @@
 .serv-program-details p {
   color: #fff;
 }
-.services .icon-box {
-  padding: 25px 10px;
-  transition: all 0.3s ease-in-out;
-  border-radius: 0.375rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(26, 140, 26, 40%);
-}
-.services .icon-box .icon {
-  margin: 0 auto;
-  padding: 5px 10px;
-  background: #516e36;
-  border-radius: 0.2rem;
-  transition: all 0.3s ease-out 0s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  transform-style: preserve-3d;
-}
-.services .icon-box .icon i {
-  color: #baf7cb;
-  font-size: 28px;
-}
-.services .icon-box .icon::before {
-  position: absolute;
-  content: "";
-  left: -8px;
-  top: -8px;
-  height: 100%;
-  width: 100%;
-  background: #baf7cb;
-  border-radius: 0.2rem;
-  transition: all 0.3s ease-out 0s;
-  transform: translateZ(-1px);
-}
-.services .icon-box h4 {
-  font-weight: 800;
-  margin-bottom: 15px;
-  color: #ffffff;
-}
-.services .icon-box p {
-  margin-bottom: 0;
-  color: #c2c2c2;
-}
-.services .icon-box:hover {
-  background: rgba(26, 140, 26, 0.7);
-  border-color: #1a8c1a;
-}
-.services .icon-box:hover .icon {
-  background: #baf7cb;
-}
-.services .icon-box:hover .icon i {
-  color: #516e36;
-}
-.services .icon-box:hover .icon::before {
-  background: #516e36;
-}
-.services .icon-box:hover h4 {
-  color: #032e03;
-}
-.services .icon-box:hover p {
-  color: #bff190;
+@media (max-width: 450px) {
+  .services .appointment-btn {
+    font-size: 16px !important;
+  }
 }
 /* =========================================================== */
 
@@ -192,8 +171,7 @@
   color: #333;
   text-align: center;
 }
-.services .stories h2,
-.gallery h2 {
+.services .stories h2 {
   font-size: 6rem;
   font-family: "Coming Soon", cursive;
   font-family: "Delicious Handrawn", cursive;
@@ -201,6 +179,12 @@
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0;
+}
+.services .stories .stories-description {
+  color: #332125;
+  margin: 0 1.5rem 2.5rem;
+  font-size: 14px;
+  font-weight: 500;
 }
 .services .gallery-btn {
   display: flex;
@@ -215,6 +199,14 @@
   font-weight: 600;
   letter-spacing: 3px;
 }
+.services .stories .programs {
+  font-size: 3rem;
+  font-family: "Coming Soon", cursive;
+  font-family: "Delicious Handrawn", cursive;
+  color: #2d3185;
+  text-align: center;
+  direction: ltr;
+}
 /* ============================================================ */
 
 /* Offers */
@@ -227,21 +219,20 @@
   background-image: url(../img/bg.webp);
   background-size: cover;
   position: relative;
+  border: 5px solid #fff;
+  border-radius: 0.35rem;
 }
 .services .offers .offer-one::before {
   content: "Special Offer";
   position: absolute;
-  right: 0;
+  right: 0px;
   top: 0px;
   background-color: rgb(211 7 42);
   color: #fff;
-  border-radius: 0.35rem;
   padding: 4px 10px 10px 14px;
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 3px;
-  border-top: 0;
-  border-right: 0;
 }
 .services .offers .offer-one,
 .services .offers .offer-two {
@@ -279,14 +270,14 @@
 .services .offers .offer-two p {
   color: #333;
 }
-@media (max-width: 400px) {
+@media (max-width: 992px) {
   .logo-btn {
     flex-direction: column;
   }
 }
 
 /*--------------------------------------------------------------
-# Departments
+# Services Departments
 --------------------------------------------------------------*/
 .services .nav-tabs {
   border: 0;

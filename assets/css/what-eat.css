@@ -165,3 +165,16 @@
   flex-direction: column;
   justify-content: space-around;
 }
+/* Recipes */
+#recipes {
+  background-image: url(../img/appoint-bg.webp);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.recipes .section-title h2 {
+  color: #4ed24e;
+}
+.recipes .section-title p {
+  color: #d9f7bc;
+}
