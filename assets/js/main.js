@@ -235,18 +235,50 @@
     },
   });
 
-    /**
+  //recipes isotope and filter;
+  window.addEventListener("load", () => {
+    let recipesContainer = select(".recipes-container");
+    if (recipesContainer) {
+      let recipesIsotope = new Isotope(recipesContainer, {
+        itemSelector: ".recipe-item",
+      });
+
+      let recipesFilters = select("#recipes-filters li", true);
+
+      on(
+        "click",
+        "#recipes-filters li",
+        function (e) {
+          e.preventDefault();
+          recipesFilters.forEach(function (el) {
+            el.classList.remove("filter-active");
+          });
+          this.classList.add("filter-active");
+
+          recipesIsotope.arrange({
+            filter: this.getAttribute("data-filter"),
+          });
+          recipesIsotope.on("arrangeComplete", function () {
+            AOS.refresh();
+          });
+        },
+        true
+      );
+    }
+  });
+  /*------------------------------------------*/
+
+  /**
    * Animation on scroll
    */
-    window.addEventListener('load', () =>
-    {
-      AOS.init({
-        duration: 1000,
-        easing: 'ease-in-out',
-        once: true,
-        mirror: false
-      });
+  window.addEventListener("load", () => {
+    AOS.init({
+      duration: 1000,
+      easing: "ease-in-out",
+      once: true,
+      mirror: false,
     });
+  });
 
   /**
    * Initiate Pure Counter

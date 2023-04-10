@@ -23,6 +23,56 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+/* ---------------------------------------------- */
+/**
+* Appointment Button *
+*/
+.appoint-indexpg .appointment-btn {
+  background: #fff;
+  color: #1a8c1a !important;
+  border-radius: 2rem;
+  padding: 8px 25px !important;
+  white-space: nowrap !important;
+  transition: all 0.3s ease-in-out !important;
+  font-size: 16px !important;
+  display: inline-block !important;
+  font-weight: 700 !important;
+  width: fit-content;
+}
+.appoint-indexpg .appointment-btn:hover {
+  background: #1a8c1a !important;
+  color: #fff !important;
+}
+@media (max-width: 768px) {
+  .appoint-indexpg .appointment-btn {
+    margin: 0 15px 0 0;
+    padding: 6px 18px;
+  }
+}
+
+.appointment-btn {
+  background: #fff;
+  color: #1a8c1a !important;
+  border-radius: 2rem;
+  padding: 8px 25px !important;
+  white-space: nowrap !important;
+  transition: all 0.3s ease-in-out !important;
+  font-size: 16px !important;
+  display: inline-block !important;
+  font-weight: 700 !important;
+  width: fit-content;
+}
+.appointment-btn:hover {
+  background: #1a8c1a !important;
+  color: #fff !important;
+}
+@media (max-width: 768px) {
+  .appointment-btn {
+    margin: 0 15px 0 0;
+    padding: 6px 18px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/

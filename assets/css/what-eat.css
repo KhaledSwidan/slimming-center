@@ -88,7 +88,7 @@
 .what-eat .card-body h5:before {
   content: "";
   position: absolute;
-  width: 120%;
+  width: 100%;
   height: 2px;
   background-color: #fff;
   bottom: -4px;
@@ -116,6 +116,76 @@
 .what-eat .card-body p {
   margin: 1rem 0;
   color: #000;
+}
+ul#recipes-filters {
+  list-style: none;
+  width: fit-content;
+}
+ul#recipes-filters li {
+  margin: 0.4rem 0.8rem;
+  background-color: #fff;
+  cursor: pointer;
+  color: #1a8c1a !important;
+  border-radius: 2rem;
+  padding: 8px 25px !important;
+  white-space: nowrap !important;
+  transition: all 0.3s ease-in-out !important;
+  font-size: 16px !important;
+  display: inline-block !important;
+  font-weight: 700 !important;
+  width: fit-content;
+}
+ul#recipes-filters li:hover,
+ul#recipes-filters li.filter-active {
+  background: #1a8c1a !important;
+  color: #fff !important;
+}
+.recipe-video {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f3f3f3;
+  border-top: 2px solid #1a8c1a;
+}
+.recipe-video a {
+  border-left: 2px solid #1a8c1a;
+  margin: 0px;
+  background-color: #fff;
+  cursor: pointer;
+  color: #1a8c1a !important;
+  border-bottom-right-radius: 0.375rem;
+  padding: 5px 15px !important;
+  white-space: nowrap !important;
+  transition: all 0.3s ease-in-out !important;
+  font-size: 16px !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500 !important;
+  width: fit-content;
+}
+.recipe-video a:hover {
+  background: #1a8c1a !important;
+  color: #fff !important;
+}
+.recipe-video .recipe-rank {
+  margin: 0px;
+  color: #333;
+  padding: 5px 15px !important;
+  white-space: nowrap !important;
+  transition: all 0.3s ease-in-out !important;
+  font-size: 14px !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 500 !important;
+  width: fit-content;
+}
+.recipe-video .recipe-rank i {
+  font-size: 17px;
 }
 
 /* About Food */
@@ -177,4 +247,19 @@
 }
 .recipes .section-title p {
   color: #d9f7bc;
+}
+@media (max-width: 720px) {
+  .recipes .section-title p {
+    padding: 0 2rem !important;
+  }
+}
+@media (max-width: 620px) {
+  .recipes .section-title p {
+    padding: 0 1rem !important;
+  }
+}
+@media (max-width: 520px) {
+  .recipes .section-title p {
+    padding: 0 0rem !important;
+  }
 }
