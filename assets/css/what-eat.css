@@ -1,3 +1,9 @@
+a.appointment-btn.scrollto {
+  width: 100%;
+  text-align: center;
+}
+
+/* ------------------- */
 .head-content-what-eat {
   background-image: url(../img/what-eat.jpg);
   width: 100%;

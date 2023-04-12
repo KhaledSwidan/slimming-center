@@ -34,7 +34,7 @@
   color: #000;
   white-space: nowrap;
   transition: all 0.3s ease-in-out;
-  border-bottom: 2px solid transparent;
+  border-bottom: 3px solid transparent;
   padding: 0 !important;
 }
 .navbar a:hover,
@@ -44,6 +44,11 @@
   transition: all 0.3s ease-in-out;
   color: #003e00;
   border-color: #3e6b48;
+}
+a.navbar-brand:hover {
+  transition: all 0.3s ease-in-out;
+  color: transparent;
+  border-color: transparent;
 }
 .navbar .navbar-toggler {
   border: none;
